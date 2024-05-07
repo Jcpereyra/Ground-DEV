@@ -662,9 +662,6 @@ iframe{
     padding-top: 2.5rem;
     overflow-x: hidden;
   }
-  html{
-    overflow-x: hidden;
-  }
   /* Header adjustments */
   .greeting {
     font-size: 24px;
