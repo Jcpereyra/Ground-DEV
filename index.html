@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en" translate="yes">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Juan Carlos Pereyra de Leon">
+  <meta name="description" content="Software Solutions">
+  <meta property="og:title" content="Ground-DEV | fullstack-dev">
+  <meta property="og:type" content="website">
+  <title>28-studios</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
+  <link rel="stylesheet" type="text/css" href="main.css"/>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body class="root" onload="document.querySelector('body').style.width=window.innerWidth;">
+    <h1 class="greeting" id="moto">wellcome to 28-studios</h1>
+    <i class="what" id="point">where we grow from the ground <strong>To the top</strong></i><br>
+   
+<nav class="navbar" id="navbar">
+  <div class="radio-inputs">
+    <img alt="" src="./icons/home.png"/>
+      <label class="radio">
+          <input type="radio" name="radio"  />
+          <span class="name home1"><a href="#home">Home</a></span>
+      </label>
+      <img alt="" src="./icons/service.png"/>
+      <label class="radio">
+          <input type="radio" name="radio" />
+          <span class="name service"><a href="#services">Services</a></span>
+      </label>
+      <img alt="" src="./icons/about.png"/>
+      <label class="radio">
+          <input type="radio" name="radio" />
+          <span class="name about"><a href="#about">About</a></span>
+      </label>
+      <img alt="" src="./icons/producs.png"/>
+      <label class="radio">
+          <input type="radio" name="radio" />
+          <span class="name products"><a href="#products">Products</a></span>
+      </label>
+      <img alt="" src="./icons/card.png"/>
+      <label class="radio">
+          <input type="radio" name="radio" />
+          <span class="name personal"><a href="#card">Card</a></span>
+      </label>
+  </div>
+</nav><br>
+
+<!-- Sections -->
+<section class="home shortInfo" id="home">
+  <h1>28-Studios</h1>
+
+  <!-- Image -->
+  <img src="./solutions.gif" alt="Software Solutions Image" >
+  <!-- Paragraph --> <p>With a dedicated team of experienced software engineers, designers, and project managers, we specialize in delivering cutting-edge software products and services that empower our clients to streamline their operations, enhance productivity, and achieve their business objectives. From custom software development and enterprise applications to cloud-based solutions and mobile apps, we leverage the latest technologies and best practices to develop scalable, secure, and user-friendly software solutions that drive business growth and success. Our commitment to excellence, customer satisfaction, and continuous innovation sets us apart as a trusted partner for businesses seeking reliable and cost-effective software solutions."</p>
+  <div class="solutions">
+    <img src="./images/kika.jpeg" alt="Solution 1">
+    <img src="./images/its.jpeg" alt="Solution 2">
+    <img src="./images/shotu.jpeg" alt="Solution 3">
+    <img src="./images/mizu.jpeg" alt="Solution 3">
+    <img src="./images/potrncial.gif" alt="Solution 3">
+    <!-- Add more images as needed -->
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vK2iIjHze2A?autoplay=1&mute=1&enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</section>
+
+<section class="servicio skills" id="services">
+  <h5 class="serv">Our Services</h5><br>
+
+<div class="service-card" id="website-development">
+    <div class="service-header" onclick="toggleService('website-development')">
+      <img alt="https://th.bing.com/th/id/R.2211a28e0a154c4b34ff8acfb945dba1?rik=R0jaR4Nk7pwPKw&pid=ImgRaw&r=0" src="./images/webtren.jpg"/>
+        <h2>Website</h2>
+        <span class="expand-icon">&#128065;</span>
+    </div>
+    <div class="service-content">
+        <ul>
+            <li>Custom website development</li>
+            <li>E-commerce websites</li>
+            <li>Content management systems (CMS)</li>
+            <li>Responsive web design</li>
+            <li>Website maintenance and support</li>
+            <li><button class="example">Load Docs</button></li>
+        </ul>
+    </div>
+</div>
+
+<div class="service-card" id="mobile-app-development">
+    <div class="service-header" onclick="toggleService('mobile-app-development')">
+      <img alt="https://th.bing.com/th/id/OIP.NdYMz_uvezscto_J6xRM2AHaHa?rs=1&pid=ImgDetMain" src="./images/mobile.jpeg"/>
+        <h2>Mobile App</h2>
+        <span class="expand-icon">&#128065;</span>
+    </div>
+    <div class="service-content">
+        <ul>
+            <li>iOS app development</li>
+            <li>Android app development</li>
+            <li>Cross-platform app development</li>
+            <li>Mobile app UI/UX design</li>
+            <li>App testing and deployment</li>
+            <li><button class="example">Load Docs</button></li>
+        </ul>
+    </div>
+</div>
+
+<div class="service-card" id="desktop-app-development">
+    <div class="service-header" onclick="toggleService('desktop-app-development')">
+      <img alt="https://th.bing.com/th/id/OIP.1g7raYGiM4lk8aNldzNsDQHaGc?w=631&h=549&rs=1&pid=ImgDetMain" src="./images/pc.jpeg"/>
+        <h2>Desktop</h2>
+        <span class="expand-icon">&#128065;</span>
+    </div>
+    <div class="service-content">
+        <ul>
+            <li>Windows application development</li>
+            <li>Linux application development</li>
+            <li>Custom desktop software solutions</li>
+            <li>Desktop app maintenance and support</li>
+            <li><button class="example">Load Docs</button></li>
+        </ul>
+    </div>
+</div>
+
+<div class="service-card" id="ui-ux-design">
+    <div class="service-header" onclick="toggleService('ui-ux-design')">
+      <img alt="https://th.bing.com/th/id/OIP.30QZLKz_D65yRH6oV5t0kgHaHa?rs=1&pid=ImgDetMain" src="./images/design.jpg"/>
+        <h2>UI/UX Design</h2>
+        <span class="expand-icon">&#128065;</span>
+    </div>
+    <div class="service-content">
+        <ul>
+            <li>Wireframing and prototyping</li>
+            <li>User interface design</li>
+            <li>User experience design</li>
+            <li>Interactive design</li>
+            <li>Usability testing</li>
+            <li><button class="example">Load Docs</button></li>
+        </ul>
+    </div>
+</div>
+
+<div class="service-card" id="cyber-security">
+    <div class="service-header" onclick="toggleService('cyber-security')">
+      <img alt="https://hakin9.org/wp-content/uploads/2021/04/AdobeStock_186885581-scaled.jpeg" src="./images/secure.webp"/>
+        <h2>Cybersecurity</h2>
+        <span class="expand-icon">&#128065;</span>
+    </div>
+    <div class="service-content">
+        <ul>
+            <li>Security assessment and audits</li>
+            <li>Network security</li>
+            <li>Data encryption</li>
+            <li>Vulnerability scanning</li>
+            <li>Incident response planning</li>
+            <li><button class="example">Load Docs</button></li>
+        </ul>
+    </div>
+</div>
+</section>
+
+<section id="about" class="about-section personal">
+  <div class="container">
+    <h1>About Us</h1>
+
+    <div class="image-container">
+        <img src="./studio.gif" alt="Company Image">
+    </div>
+
+    <p>Welcome to 28-Studio, where we're dedicated to providing innovative software solutions to businesses of all sizes. With a team of experienced professionals and a passion for technology, we're committed to helping our clients succeed in today's digital world.</p>
+
+    <p>Our mission is to empower businesses with cutting-edge software solutions that drive growth, efficiency, and success. Whether you're looking for custom software development, mobile app development, UI/UX design, or cybersecurity services, we've got you covered.</p>
+
+    <p>At 28-Studio, we believe in transparency, integrity, and excellence in everything we do. We prioritize open communication, collaborative partnerships, and delivering exceptional results that exceed our clients' expectations.</p>
+
+    <p>Join us at 28-Studio, and let's turn your vision into reality. Your success is our success, and we're here to support you every step of the way.</p>
+
+    <p class="quote">"<span class="highlight">Your success is our success.</span>"</p>
+</div>
+</section>
+
+<section id="products">
+  <h1>Our Products</h1>
+
+  <div class="product">
+      <img src="./images/paradice.png" alt="Game Paradise">
+      <h2>Game Paradise</h2>
+      <p>Game Paradise is an Android app that offers a collection of web games for your entertainment. Dive into a world of fun and excitement with a variety of games to choose from, including puzzles, strategy games, arcade classics, and more. Whether you're at home or on the go, Game Paradise provides endless hours of gaming enjoyment right at your fingertips.</p>
+      <p>Price: Free</p>
+  </div>
+  
+  <div class="product">
+      <img src="./images/SystemGuard.png" alt="System Guard">
+      <h2>System Guard</h2>
+      <p>System Guard is a powerful desktop application designed to monitor and optimize your system's performance. With System Guard, you can keep an eye on running processes, network ports, and system resources to ensure smooth operation and detect any potential issues. Additionally, System Guard features an integrated web view, allowing you to access web content directly within the application for seamless multitasking.</p>
+      <p>Price: $9.99</p>
+  </div>
+  
+  <div class="product">
+      <img src="./images/bubble.png" alt="Bubble World">
+      <h2>Bubble World</h2>
+      <p>Bubble World is a unique platform that revolutionizes task management with a playful twist. Instead of traditional to-do lists, Bubble World lets you organize your tasks into colorful bubbles, making productivity fun and engaging. Create bubbles for different tasks, assign priorities, and watch as your bubbles float and interact in a dynamic digital environment. Say goodbye to mundane task lists and hello to Bubble World!</p>
+      <p>Price: $40.99</p>
+  </div>
+</section>
+
+<section id="card" class="card">
+  <div class="contact-card">
+    <img src="./studio.gif" alt="Profile Picture">
+    <h2>Juan Carlos Pereyra de Leon</h2>
+    <p>Email: jpereyradeleon@gmail.com</p>
+    <p>Phone: +49 17659701492</p>
+    <div class="languages">
+        <p>Languages:</p>
+        <ul>
+            <li>English</li>
+            <li>Spanish</li>
+            <li>German</li>
+        </ul>
+    </div>
+</div>
+<ul class="business-hours">
+  <li>Monday: 8:00 AM - 7:00 PM</li>
+  <li>Tuesday: 8:00 AM - 7:00 PM</li>
+  <li>Wednesday: 8:00 AM - 7:00 PM</li>
+  <li>Thursday: 8:00 AM - 7:00 PM</li>
+  <li>Friday: 8:00 AM - 7:00 PM</li>
+</ul>
+<ul class="payment-methods">
+  <li>
+      <img src="./images/kredit.png" alt="Credit Card">
+      Credit Cards
+  </li>
+  <li>
+      <img src="./images/debit.png" alt="Debit Card">
+      Debit Cards
+  </li>
+  <li>
+      <img src="./images/paypal.png" alt="PayPal">
+      PayPal
+  </li>
+  <li>
+      <img src="./images/klar.jpg" alt="Klarna">
+      Klarna
+  </li>
+</ul>
+</section>
+<span class="dismisss"></span>
+
+<!-- Content for demonstration -->
+<div class="footer">
+  <ul class="social-links">
+    <li><a href="https://www.instagram.com/28studio_public"><img src="./images/insta.webp" alt="Instagram"></a></li>
+    <li><a href="https://www.tiktok.com/xlatinx"><img src="./images/tik.webp" alt="TikTok"></a></li>
+  </ul>
+</div>
+</body>
+</html>
