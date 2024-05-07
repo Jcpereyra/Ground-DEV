@@ -660,7 +660,6 @@ iframe{
   /* Body adjustments */
   body {
     padding-top: 2.5rem;
-    overflow-x: hidden;
   }
   /* Header adjustments */
   .greeting {
